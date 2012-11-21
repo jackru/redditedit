@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subreddit_id: 1
+  title: MyString
+  link: MyString
+
+two:
+  subreddit_id: 1
+  title: MyString
+  link: MyString

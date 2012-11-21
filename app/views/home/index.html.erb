@@ -1,0 +1,12 @@
+<% @subreddits.each do |sub| %>
+<h2><%= sub.name %></h2>
+
+<ul>
+	<% sub.stories.each do |story| %>
+	<li>
+		<%= link_to story.title, story.link %>
+	</li>
+	<% end %>
+</ul>
+
+<% end %>
