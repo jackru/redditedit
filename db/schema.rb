@@ -11,14 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121121182418) do
+ActiveRecord::Schema.define(:version => 20121121190753) do
 
   create_table "stories", :force => true do |t|
     t.integer  "subreddit_id"
-    t.string   "title"
+    t.text     "title",        :limit => 255
     t.string   "link"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
 
   create_table "subreddits", :force => true do |t|
