@@ -16,6 +16,12 @@ end
 gem 'nokogiri'
 gem 'httparty'
 
+gem 'activeadmin'
+
+gem "airbrake"
+
+gem 'gocardless'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

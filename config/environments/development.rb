@@ -1,3 +1,14 @@
+GoCardless.account_details = {
+  :app_id     => 'Q6GQ985TQEG889AMV7QMVSSCD3XGHNXZTD136DHE5QWSZXEDY76T1JVMSTT16T5J',
+  :app_secret => 'PRT81SM2ACG90HG3F0RNPK6E04ZV5QF8ZAEDAKG45BWC08ENYDWZPA2QG2KG68EH',
+  :token      => 'KDHJQ5JSPZM4EQWYGDG4TED1MG7SEQR6EQ4SBRZJD8HBZFVNZH0R3KZHMFCTF63K 
+                  manage_merchant:173',
+}
+
+GoCardless.environment = :sandbox
+
+
+
 Redditedit::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
